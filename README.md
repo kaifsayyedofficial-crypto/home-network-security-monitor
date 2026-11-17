@@ -41,29 +41,8 @@ The dashboard displays aggregate Pi-hole DNS statistics and recent Suricata aler
 ---
 
 ## 2. Architecture
+[Architecture](screenshots/architecture_diagram.png)
 
-```text
-Known home devices
-(phone / laptop / other clients)
-          |
-          | DNS requests (if configured to use Pi-hole)
-          v
-Home router (DHCP advertises Pi-hole DNS)
-          |
-          v
-Ubuntu VM: 192.168.0.117
-  +--------------------------+
-  | Pi-hole DNS service      |----> Upstream DNS (Quad9 configured)
-  |                          |
-  | Suricata IDS             |----> /var/log/suricata/eve.json
-  |                          |
-  | Flask dashboard :5000    |
-  +--------------------------+
-          ^
-          |
-Laptop browser on home LAN
-http://192.168.0.117:5000
-```
 
 ### Important visibility limitation
 
