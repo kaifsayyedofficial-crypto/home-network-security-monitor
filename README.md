@@ -4,7 +4,7 @@ A home-lab **defensive monitoring** project that combines **Pi-hole**, **Suricat
 
 > **⚠️ Scope:** This is a learning project for a network you own or have permission to monitor. It is a monitoring/alerting lab, **not** an automated blocking system.
 
-![Dashboard overview](docs/dashboard-overview.png)
+![Dashboard overview](screenshots/dashboard.jpeg)
 
 ---
 
@@ -234,7 +234,7 @@ Use only your own lab devices and ordinary browsing/DNS activity.
 
 | Pi-hole DNS statistics | Suricata alerts |
 |---|---|
-| ![Pi-hole](docs/pihole-dns-statistics.png) | ![Suricata](docs/suricata-alerts.png) |
+| ![Pi-hole](screenshots/pihole.jpeg) | ![Suricata](screenshots/suricata_alert.jpeg) |
 
 ---
 
